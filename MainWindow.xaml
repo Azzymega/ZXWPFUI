@@ -1,0 +1,26 @@
+﻿<Window x:Class="QWWPFUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QWWPFUI"
+        mc:Ignorable="d"
+        Background="Black"
+        Title="UndefineIntegral" Height="900" Width="1400
+">
+    <Grid>
+        <Label Content="UndefineIntegral" HorizontalAlignment="Left" Margin="40,40,0,0" VerticalAlignment="Top" FontSize="100" Foreground="White" FontFamily="Segoe WP SemiLight"/>
+        <Button Content="" Margin="1302,56,40,0" VerticalAlignment="Top" Height="56" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="/Opera Снимок_2023-05-23_202732_yandex.ru.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <TextBox Name="TextBox1" HorizontalAlignment="Left" Margin="58,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe WP Light"/>
+        <Button Content="Решить" HorizontalAlignment="Left" Margin="58,442,0,0" VerticalAlignment="Top" Height="100" Width="500" BorderBrush="White" Foreground="White" FontSize="48" FontFamily="Segoe WP Light" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <TextBox Name="TextBox2" HorizontalAlignment="Left" Margin="58,564,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe WP Light"/>
+    </Grid>
+</Window>

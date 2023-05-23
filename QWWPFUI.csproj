@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Opera Снимок_2023-05-23_202732_yandex.ru.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="QWFramework">
+      <HintPath>..\..\..\RiderProjects\TestParser\TestParser\bin\Debug\net7.0\QWFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Opera Снимок_2023-05-23_202732_yandex.ru.png" />
+  </ItemGroup>
+
+</Project>
