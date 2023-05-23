@@ -1,4 +1,5 @@
 ﻿using QWFramework.Core;
+using QWWPFUI.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,7 @@ namespace QWWPFUI
     public partial class MainWindow : Window
     {
         private UndefinedIntegral? integral;
+        private NavigationService navigationService;
         public MainWindow()
         {
             InitializeComponent();
@@ -38,6 +40,12 @@ namespace QWWPFUI
                 MessageBox.Show(ex.Message);
                 MessageBox.Show("Вы ошиблись при вводе.");
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            navigationService = NavigationService.GetNavigationService(this);
+            navigationService.Navigate(new InstructionPage());
         }
     }
 }

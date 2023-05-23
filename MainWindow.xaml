@@ -10,12 +10,12 @@
 ">
     <Grid>
         <Label Content="UndefineIntegral" HorizontalAlignment="Left" Margin="40,40,0,0" VerticalAlignment="Top" FontSize="100" Foreground="White" FontFamily="Segoe WP SemiLight"/>
-        <Button Content="" Margin="1302,56,40,0" VerticalAlignment="Top" Height="56" BorderBrush="#00000000">
+        <Button Content="" BorderBrush="#00000000" Margin="0,97,40,0" HorizontalAlignment="Right" Width="62" Height="56" VerticalAlignment="Top" Click="Button_Click_1">
             <Button.Background>
-                <ImageBrush ImageSource="/Opera Снимок_2023-05-23_202732_yandex.ru.png" Stretch="None"/>
+                <ImageBrush ImageSource="/Resources/switchButton.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <TextBox Name="TextBox1" HorizontalAlignment="Left" Margin="58,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe WP Light"/>
+        <TextBox Name="TextBox1" HorizontalAlignment="Left" Margin="58,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe WP Light" OpacityMask="Black"/>
         <Button Content="Решить" HorizontalAlignment="Left" Margin="58,442,0,0" VerticalAlignment="Top" Height="100" Width="500" BorderBrush="White" Foreground="White" FontSize="48" FontFamily="Segoe WP Light" Click="Button_Click">
             <Button.Background>
                 <ImageBrush/>

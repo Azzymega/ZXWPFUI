@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Opera Снимок_2023-05-23_202732_yandex.ru.png" />
+    <None Remove="Resources\ReversedSwitchButton.png" />
+    <None Remove="switchButton.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Opera Снимок_2023-05-23_202732_yandex.ru.png" />
+    <Resource Include="Resources\ReversedSwitchButton.png" />
+    <Resource Include="Resources\SwitchButton.png" />
   </ItemGroup>
 
 </Project>
