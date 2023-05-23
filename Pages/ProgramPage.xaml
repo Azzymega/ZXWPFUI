@@ -1,0 +1,26 @@
+﻿<Page x:Class="QWWPFUI.Pages.ProgramPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QWWPFUI.Pages"
+        mc:Ignorable="d"
+        Background="Black"
+        d:DesignHeight="900" d:DesignWidth="1400"
+        Title="ProgramPage">
+    <Grid>
+        <Label Content="UndefineIntegral" HorizontalAlignment="Left" Margin="40,40,0,0" VerticalAlignment="Top" FontSize="100" Foreground="White" FontFamily="Segoe WP SemiLight"/>
+        <Button Content="" BorderBrush="#00000000" Margin="0,97,40,0" HorizontalAlignment="Right" Width="62" Height="56" VerticalAlignment="Top" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/Resources/switchButton.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <TextBox Name="TextBox1" HorizontalAlignment="Left" Margin="58,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe WP Light" OpacityMask="Black"/>
+        <Button Content="Решить" HorizontalAlignment="Left" Margin="58,442,0,0" VerticalAlignment="Top" Height="100" Width="500" BorderBrush="White" Foreground="White" FontSize="48" FontFamily="Segoe WP Light" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <TextBox Name="TextBox2" HorizontalAlignment="Left" Margin="58,564,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe WP Light"/>
+    </Grid>
+</Page>

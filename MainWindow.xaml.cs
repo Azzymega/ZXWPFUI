@@ -20,32 +20,12 @@ namespace QWWPFUI
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : NavigationWindow
     {
-        private UndefinedIntegral? integral;
-        private NavigationService navigationService;
         public MainWindow()
         {
             InitializeComponent();
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                integral = new UndefinedIntegral(TextBox1.Text, new UndefineIntegralEvaluator(TextBox1.Text));
-                TextBox2.Text = integral.ReturnAnswer();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                MessageBox.Show("Вы ошиблись при вводе.");
-            }
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            navigationService = NavigationService.GetNavigationService(this);
-            navigationService.Navigate(new InstructionPage());
+            this.Navigate(new ProgramPage(this));
         }
     }
 }

@@ -20,14 +20,21 @@ namespace QWWPFUI.Pages
     /// </summary>
     public partial class InstructionPage : Page
     {
-        public InstructionPage()
+        private NavigationWindow NavigationWindow;
+        public InstructionPage(NavigationWindow NavigationWindow)
         {
             InitializeComponent();
+            this.NavigationWindow = NavigationWindow;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            this.Content = new MainWindow();
+            NavigationWindow.Navigate(new ProgramPage(NavigationWindow));
+        }
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow.Navigate(new IntegralsPage(NavigationWindow));
         }
     }
 }

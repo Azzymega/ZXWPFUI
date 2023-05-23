@@ -5,10 +5,18 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:QWWPFUI.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      Background="Black"
+      d:DesignHeight="900" d:DesignWidth="1400"
       Title="IntegralsPage">
 
     <Grid>
-        
+        <Label Content="Допустимые интегралы" HorizontalAlignment="Left" Margin="150,40,0,0" VerticalAlignment="Top" FontSize="100" Foreground="White" FontFamily="Segoe WP SemiLight"/>
+        <Button x:Name="Button" Content="" BorderBrush="#00000000" Margin="40,97,0,0" HorizontalAlignment="Left" Width="62" VerticalAlignment="Top" Height="56" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/Resources/ReversedSwitchButton.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="40,407,0,0" VerticalAlignment="Top" Height="80" Width="600"/>
+        <Label Content="Label" Margin="760,410,0,0" VerticalAlignment="Top" Height="80" HorizontalAlignment="Left" Width="600"/>
     </Grid>
 </Page>

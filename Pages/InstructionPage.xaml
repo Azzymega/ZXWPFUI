@@ -6,21 +6,20 @@
       xmlns:local="clr-namespace:QWWPFUI.Pages"
       mc:Ignorable="d" 
       Background="Black"
-      d:DesignHeight="900" d:DesignWidth="1400
-      "
+      d:DesignHeight="900" d:DesignWidth="1400"
       Title="InstructionPage">
 
     <Grid>
         <Label Content="Инструкция" HorizontalAlignment="Left" Margin="150,40,0,0" VerticalAlignment="Top" FontSize="100" Foreground="White" FontFamily="Segoe WP SemiLight"/>
         <Label Content="1. Для обозначения степени использовать - ^.&#10;2. Операции с косинусом или синусом пишутся в скобках - sin(3x).&#10;3. Выгрузка в текстовый редактор производится в формате RTF.&#10;4. Выгрузка в табличный процессор производится в формате XLSX.&#10;5. Загрузка через табличный процессор производится в формате XLSX.&#10;6. Ввести дополнительные символы можно с помощью дроби (/) или целым числом.&#10;7. При загрузке через табличный процессор уравнение должно находится в ячейке A1.&#10;8. Переменной интеграла может быть только X" HorizontalAlignment="Left" Margin="148,222,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Height="490" Width="1181" FontSize="28"/>
-        <Button Content="" BorderBrush="#00000000" Margin="0,97,40,0" HorizontalAlignment="Right" Width="62" Height="56" VerticalAlignment="Top">
+        <Button Name="Button2" Content="" BorderBrush="#00000000" Margin="0,97,40,0" HorizontalAlignment="Right" Width="62" Height="56" VerticalAlignment="Top" Click="Button2_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Resources/switchButton.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <Button Content="" BorderBrush="#00000000" Margin="40,97,0,747" HorizontalAlignment="Left" Width="62" VerticalAlignment="Top" Height="56">
+        <Button Name="Button" Content="" BorderBrush="#00000000" Margin="40,97,0,0" HorizontalAlignment="Left" Width="62" VerticalAlignment="Top" Height="56" Click="Button_Click_1">
             <Button.Background>
-                <ImageBrush ImageSource="/Resources/switchButton.png" Stretch="None"/>
+                <ImageBrush ImageSource="/Resources/ReversedSwitchButton.png" Stretch="None"/>
             </Button.Background>
         </Button>
     </Grid>

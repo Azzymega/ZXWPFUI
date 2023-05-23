@@ -20,9 +20,16 @@ namespace QWWPFUI.Pages
     /// </summary>
     public partial class IntegralsPage : Page
     {
-        public IntegralsPage()
+        private NavigationWindow NavigationWindow;
+        public IntegralsPage(NavigationWindow NavigationWindow)
         {
+            this.NavigationWindow = NavigationWindow;
             InitializeComponent();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow.GoBack();
         }
     }
 }
