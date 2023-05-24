@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\AppIcon.png" />
     <None Remove="Resources\ReversedSwitchButton.png" />
     <None Remove="switchButton.png" />
   </ItemGroup>
@@ -23,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\AppIcon.png" />
     <Resource Include="Resources\ReversedSwitchButton.png" />
     <Resource Include="Resources\SwitchButton.png" />
   </ItemGroup>

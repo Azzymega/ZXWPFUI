@@ -20,13 +20,13 @@
                 <ImageBrush ImageSource="/Resources/ReversedSwitchButton.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <Label Content="x^ndx = ((x^(n+1))/(n+1)) + c" HorizontalAlignment="Left" Margin="40,0,0,395" VerticalAlignment="Bottom" Height="80" Width="600" Grid.RowSpan="2" Background="Black" Foreground="White" FontSize="44" BorderBrush="White" OpacityMask="White"/>
-        <Label Content="cos(ax)dx = (1/a)*sin(ax) + c" Margin="0,0,40,395" VerticalAlignment="Bottom" Height="80" Grid.RowSpan="2" HorizontalAlignment="Right" Width="600" Background="Black" Foreground="White" FontSize="44"/>
-        <Label Content="dx/x = ln|x| + c" HorizontalAlignment="Left" Margin="40,0,0,325" Width="600" Grid.Row="1" Background="Black" Foreground="White" FontSize="44" Height="65" VerticalAlignment="Bottom"/>
-        <Label Content="sin(ax)dx = -(1/a)*cos(ax) + c" Margin="0,0,40,325" Grid.Row="1" HorizontalAlignment="Right" Width="600" Background="Black" Foreground="White" FontSize="44" Height="65" VerticalAlignment="Bottom"/>
-        <Label Content="e^xdx = e^x + c" HorizontalAlignment="Left" Margin="40,0,0,227" VerticalAlignment="Bottom" Height="80" Width="600" Grid.Row="1" Background="Black" Foreground="White" FontSize="44"/>
-        <Label Content="dx/(x^2-a^2) = (1/2a)*ln|x-a/x+a| + c" Margin="0,0,40,216" Grid.Row="1" HorizontalAlignment="Right" Width="600" Background="Black" Foreground="White" FontSize="34" Height="80" VerticalAlignment="Bottom"/>
-        <Label Content="a^xdx = (a^x)/ln(a) + c" HorizontalAlignment="Left" Margin="40,0,0,131" Width="600" Grid.Row="1" Background="Black" Foreground="White" FontSize="44" Height="80" VerticalAlignment="Bottom"/>
-        <Label Content="dx/(a^2+x^2) = (1/a)*arctg(x/a) + c" Margin="0,0,40,131" HorizontalAlignment="Right" Width="600" Grid.Row="1" Background="Black" Foreground="White" FontSize="36" Height="80" VerticalAlignment="Bottom"/>
+        <Label Content="x^ndx = ((x^(n+1))/(n+1)) + c" HorizontalAlignment="Left" Margin="40,0,0,395" VerticalAlignment="Bottom" Height="80" Width="600" Grid.RowSpan="2" Background="Black" Foreground="White" FontSize="44" BorderBrush="White" OpacityMask="White" FontFamily="Segoe UI Light"/>
+        <Label Content="cos(ax)dx = (1/a)*sin(ax) + c" Margin="0,0,40,395" VerticalAlignment="Bottom" Height="80" Grid.RowSpan="2" HorizontalAlignment="Right" Width="600" Background="Black" Foreground="White" FontSize="44" FontFamily="Segoe UI Light"/>
+        <Label Content="dx/x = ln|x| + c" HorizontalAlignment="Left" Margin="40,0,0,325" Width="600" Grid.Row="1" Background="Black" Foreground="White" FontSize="44" Height="65" VerticalAlignment="Bottom" FontFamily="Segoe UI Light"/>
+        <Label Content="sin(ax)dx = -(1/a)*cos(ax) + c" Margin="0,0,40,325" Grid.Row="1" HorizontalAlignment="Right" Width="600" Background="Black" Foreground="White" FontSize="44" Height="65" VerticalAlignment="Bottom" FontFamily="Segoe UI Light"/>
+        <Label Content="e^xdx = e^x + c" HorizontalAlignment="Left" Margin="40,0,0,227" VerticalAlignment="Bottom" Height="80" Width="600" Grid.Row="1" Background="Black" Foreground="White" FontSize="44" FontFamily="Segoe UI Light"/>
+        <Label Content="dx/(x^2-a^2) = (1/2a)*ln|x-a/x+a| + c" Margin="0,0,40,216" Grid.Row="1" HorizontalAlignment="Right" Width="600" Background="Black" Foreground="White" FontSize="34" Height="80" VerticalAlignment="Bottom" FontFamily="Segoe UI Light"/>
+        <Label Content="a^xdx = (a^x)/ln(a) + c" HorizontalAlignment="Left" Margin="40,0,0,131" Width="600" Grid.Row="1" Background="Black" Foreground="White" FontSize="44" Height="80" VerticalAlignment="Bottom" FontFamily="Segoe UI Light"/>
+        <Label Content="dx/(a^2+x^2) = (1/a)*arctg(x/a) + c" Margin="0,0,40,131" HorizontalAlignment="Right" Width="600" Grid.Row="1" Background="Black" Foreground="White" FontSize="36" Height="80" VerticalAlignment="Bottom" FontFamily="Segoe UI Light"/>
     </Grid>
 </Page>
