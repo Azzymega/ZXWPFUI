@@ -15,12 +15,27 @@
                 <ImageBrush ImageSource="/Resources/switchButton.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <TextBox Name="TextBox1" HorizontalAlignment="Left" Margin="58,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe WP Light" OpacityMask="Black"/>
+        <TextBox Name="TextBox1" HorizontalAlignment="Left" Margin="58,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe UI Light" OpacityMask="Black"/>
         <Button Content="Решить" HorizontalAlignment="Left" Margin="58,442,0,0" VerticalAlignment="Top" Height="100" Width="500" BorderBrush="White" Foreground="White" FontSize="48" FontFamily="Segoe WP Light" Click="Button_Click">
             <Button.Background>
                 <ImageBrush/>
             </Button.Background>
         </Button>
-        <TextBox Name="TextBox2" HorizontalAlignment="Left" Margin="58,564,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe WP Light"/>
+        <TextBox Name="TextBox2" HorizontalAlignment="Left" Margin="58,564,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="100" FontSize="72" FontFamily="Segoe UI Light"/>
+        <Button Content="Выгрузка Word" Margin="0,324,58,0" BorderBrush="White" Foreground="White" FontSize="48" FontFamily="Segoe WP Light" Click="Button_Click2" HorizontalAlignment="Right" Width="500" Height="100" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Выгрузка Excel" Margin="0,442,58,0" BorderBrush="White" Foreground="White" FontSize="48" FontFamily="Segoe WP Light" Click="Button_Click3" HorizontalAlignment="Right" Width="500" Height="100" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Загрузка Excel" Margin="0,564,58,0" BorderBrush="White" Foreground="White" FontSize="48" FontFamily="Segoe WP Light" Click="Button_Click4" HorizontalAlignment="Right" Width="500" Height="100" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>
